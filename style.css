@@ -1,0 +1,76 @@
+/*Alumno: Axel Ricardo Coronado Sánchez
+    Fecha: 07/09/2023*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+fieldset {
+    border-radius: 20px 20px 20px 20px;
+}
+
+label {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+select {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+section {
+    margin: 20px;
+    background-color: #E9E9E9;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+div {
+    float: right;
+}
+
+.titulo {
+    color: #B4370C;   
+    margin-left: 40px;
+}
+
+.boton {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #631313;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.boton:hover {
+    border: 1px solid #631313;
+    color: #000000;
+    background-color: #E9E9E9;
+}
+
