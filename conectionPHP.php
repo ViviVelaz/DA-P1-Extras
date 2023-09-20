@@ -1,6 +1,6 @@
 <?php
   $server = "localhost";
-  $user = "viviana";
+  $user = "ricardo";
   $password = "123";
   $database = "formularioDB";
 
