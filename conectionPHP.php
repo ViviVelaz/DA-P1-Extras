@@ -1,7 +1,7 @@
 <?php
   $server = "localhost";
-  $user = "root";
-  $password = "";
+  $user = "viviana";
+  $password = "123";
   $database = "formularioDB";
 
   // Crear conexión
