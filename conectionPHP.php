@@ -21,7 +21,7 @@
   $fechaNac = $_POST['fechaNac'];
   $domicilio = $_POST['domi'];
 
-  $sql = "INSERT INTO DatosPersonales (apellidoPaterno, apellidoMaterno, nombres, sexo, email, fechaNac, domicilio)
+  $sql = "INSERT INTO datospersonales (apellidoPaterno, apellidoMaterno, nombres, sexo, email, fechaNac, domicilio)
   VALUES ('$apellidoPaterno', '$apellidoMaterno', '$nombres', '$sexo', '$email', '$fechaNac', '$domicilio')";
 
   if ($conn->query($sql) === TRUE) {
