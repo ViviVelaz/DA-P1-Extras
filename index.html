@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form action="conectionPHP.php" method="post">
+            <fieldset>
+                <legend class="titulo"> <h2> DATOS PERSONALES </h2> </legend>
+                <section>
+                    <label for="aplellidoP"> Apellido Paterno: </label>
+                    <input type="text" name="apellidoP" placeholder="Ingrese su apellido"/>
+                    <label for="apellidoM"> Apellido materno: </label>
+                    <input type="text" name="apellidoM" placeholder="Ingrese su apellido"/>
+                    <label for="nombres"> Nombre(s): </label>
+                    <input type="text" name="nombres" placeholder="Ingrese su(s) nombre(s)"/>
+                    <br><br>
+                    <label for="sexo"> Sexo: </label>
+                    <input type="radio" name="sexo" value="1"/> Mujer
+                    <input type="radio" name="sexo" value="2"/> Hombre
+                    <br><br>
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" name="correo" placeholder="Ingrese su correo electrónico">
+                    <br><br>
+                    <label for="fechaNac"> Fecha de nacimiento </label>
+                    <input type="date" name="fechaNac"/>
+                    <br><br>
+                    <label for="domi"> Domicilio: </label><br>
+                    <input type="textarea" name="domi" placeholder="Ingrese la Calle"/>
+                    <br><br>
+                </section>
+                <div>
+                    <input class="boton" type="submit" name="Enviar"/>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
